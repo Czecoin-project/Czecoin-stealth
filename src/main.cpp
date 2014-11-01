@@ -576,7 +576,7 @@ bool CTxMemPool::accept(CTxDB& txdb, CTransaction &tx,
 
 
     // Rather not work on nonstandard transactions (unless -testnet)
-    if (pindexBest->nHeight < 50000) {
+    if (pindexBest->nHeight < 53000) {
 		if (!fTestNet && !tx.IsStandard())
 		return error("CTxMemPool::accept() : nonstandard transaction type");
 		}
