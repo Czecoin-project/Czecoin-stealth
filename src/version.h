@@ -41,7 +41,7 @@ static const int MIN_PROTO_VERSION = 70100;
 
 // nTime field added to CAddress, starting with this version;
 // if possible, avoid requesting addresses nodes older than this
-static const int CADDR_TIME_VERSION = 70120;
+static const int CADDR_TIME_VERSION = 70100;
 
 // only request blocks from nodes outside this range of versions
 static const int NOBLKS_VERSION_START = 70020;
